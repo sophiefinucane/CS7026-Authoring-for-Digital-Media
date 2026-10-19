@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: minmax(100px auto);
     gap: 10px;
     background-color: #000000;   
@@ -10,7 +10,7 @@
 }
 
 .box-orange {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 1;
     grid-row: 1 / span 1;
     background-color: #D98327 ;
 }
@@ -23,15 +23,43 @@
 }
 
 .box-light-green {
-    grid-column: 4 / span 1 ;
+    grid-column: 2 / span 5 ;
     grid-row: 1 / span 1;
     background-color: #4A943E;
 }
 
 .box-dark-green {
-    grid-column: 1 / span 4 ;
+    grid-column: 0.5 / span 4 ;
     grid-row: 4 / span 1;
     background-color: #186049;
 }
 
-box-seconde-orange
+.box-second-orange {
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 3;
+    background-color: #D98327;
+}
+
+.box-second-light-green {
+    grid-column: 3 / span 1 ;
+    grid-row: 5 / span 2;
+    background-color: #4A943E;
+}
+
+.box-second-yellow {
+    grid-column: 4 / span 3;
+    grid-row: 4 / span 2;
+    background-color: #ECE8AF;
+}
+
+.box-second-dark-green {
+    grid-column: 4 / span 3;
+    grid-row: 6 / span 1;
+    background-color: #186049;
+}
+
+.box-third-orange {
+    grid-column: 4 / span 3;
+    grid-row: 2 / span 2;
+    background-color: #D98327;
+}
