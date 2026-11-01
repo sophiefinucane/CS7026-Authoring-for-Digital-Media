@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=VT323&display=swap');
 
+
 body {
     background-color: rgb(3, 0, 1);
 }
@@ -35,7 +36,7 @@ body {
     gap: 25px;
 }
 
-#title {
+#my-name {
     color: var(--pink);
     font-family: "Sixtyfour", sans-serif;
     font-size: 5vw;
