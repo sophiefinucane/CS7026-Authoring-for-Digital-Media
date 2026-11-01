@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=VT323&display=swap');
+
 body {
     background-color: rgb(3, 0, 1);
 }
@@ -23,3 +26,32 @@ body {
 /* colour pallete reference: https://lospec.com/palette-list/default-ega-16-color-palette-rejected-5xC7 */
 /* Source: chatgpt prompt: how to define custom colours in CSS */
 
+#main-box {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    gap: 25px;
+}
+
+#title {
+    color: var(--pink);
+    font-family: "Sixtyfour", sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    
+}
+/* source for font: https://fonts.google.com/selection/embed */
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#subtitle {
+    color: var(--white);
+    font-family: "VT323", monospace;
+    font-size: 30px;
+}
