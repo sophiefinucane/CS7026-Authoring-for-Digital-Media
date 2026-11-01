@@ -1,3 +1,25 @@
 body {
     background-color: rgb(3, 0, 1);
 }
+
+:root {
+    --black: #000000; 
+    --blue: #0000aa;
+    --green:#00aa00;
+    --teal: #00aaaa;
+    --dark-red: #a00000;
+    --magenta: #aa00aa;
+    --orange: #aa5500;
+    --grey: #aaaaaa;
+    --dark-grey: #555555;
+    --indigo: #5555ff;
+    --neon-green: #55ff55;
+    --light-blue: #55ffff;
+    --orange: #ff5555;
+    --pink: #ff55ff;
+    --yellow: #ffff55;
+    --white: #ffffff;
+}
+/* colour pallete reference: https://lospec.com/palette-list/default-ega-16-color-palette-rejected-5xC7 */
+/* Source: chatgpt prompt: how to define custom colours in CSS */
+
