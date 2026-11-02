@@ -220,3 +220,19 @@ body {
     padding: 8px 20px;
     border: 4px double var(--pink);
 }
+
+.song-name{
+    font-family: "VT323", monospace;
+    color: var(--light-blue);
+    font-size: 40px;
+}
+
+.song-year {
+    font-family: "VT323", monospace;
+    color: var(--light-blue);
+}
+
+.album-cover {
+    background-color: white;
+    width: 100%;
+}
