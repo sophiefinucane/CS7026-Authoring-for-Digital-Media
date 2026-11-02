@@ -122,6 +122,21 @@ body {
     flex-direction: row;
     gap: 15px;
 }
+#name {
+    color: var(--white)
+}
+
+#location { 
+    color: var(--white)
+}
+
+#bio { 
+    color: var(--white)
+}
+
+#location{ 
+    color: var(--white)
+}
 
 #contact a {
     color: var(--magenta);
