@@ -158,10 +158,10 @@ body {
     border: 4px double var(--pink);
 }
 
-.photo-row{
+.photo-row {
     display: flex;
-   flex-direction: row;
-   gap: 20px; 
+    flex-direction: row;
+    gap: 20px; 
 }
 
 #claire {
@@ -202,5 +202,23 @@ body {
 
 #face-mosh {
     background-image: url(photos/face\ mosh.png);
+}
+
+#audio-display {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+}
+
+.song-frame {
+    width: 250px;
+    height: 350px;
+    background-size: contain;
+    background-position: center;
+    display: block;
+    padding: 8px 20px;
+    border: 4px double var(--pink);
 }
 
