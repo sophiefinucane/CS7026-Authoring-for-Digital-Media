@@ -181,6 +181,25 @@ body {
 }
 
 #guitar-playing {
-    background-image: url(photos/family\ edit.png);
+    background-image: url(photos/guitar\ playing.png);
 }
 
+#remember {
+    background-image: url(photos/remember.png);
+}
+
+#family {
+    background-image: url(photos/family);
+}
+
+#bunny {
+    background-image: url(photos/bunny.jpg);
+}
+
+#gate {
+    background-image: url(photos/gate.png);
+}
+
+#face-mosh {
+    background-image: url(photos/face\ mosh.png);
+}
