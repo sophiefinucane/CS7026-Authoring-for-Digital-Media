@@ -92,3 +92,14 @@ body {
     background-color: var(--magenta);
     color: var(--white);
 }
+
+#about-text {
+    display: block;
+    padding: 8px 20px;
+    border: 4px double var(--pink);
+    /* border design: https://www.w3schools.com/css/css_border.asp */
+    color: var(--light-blue);
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: "VT323", monospace;;
+}
