@@ -141,31 +141,46 @@ body {
 #contact a {
     color: var(--magenta);
 }
+#thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 
-#row-one {
-   display: flex;
-    flex-direction: row;
-    gap: 15px; 
+}
+
+.photo-frame {
+    width: 220px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    padding: 8px 20px;
+    border: 4px double var(--pink);
+}
+
+.photo-row{
+    display: flex;
+   flex-direction: row;
+   gap: 20px; 
 }
 
 #claire {
-    width: 200px;
-    height: 300px;
     background-image: url(photos/claire.png);
-    background-size: cover;
-    background-position: center;
-    display: block;
-    padding: 8px 20px;
-    border: 4px double var(--pink);
 }
 
 #momma {
-   width: 200px;
-    height: 300px;
     background-image: url(photos/momma.png);
-    background-size: cover;
-    background-position: center;
-    display: block;
-    padding: 8px 20px;
-    border: 4px double var(--pink);
 }
+
+#wednesday {
+    background-image: url(photos/wednesday.png);
+}
+
+#family-edit {
+    background-image: url(photos/family\ edit.png);
+}
+
+#guitar-playing {
+    background-image: url(photos/family\ edit.png);
+}
+
