@@ -67,3 +67,28 @@ body {
     font-family: "VT323", monospace;
     font-size: 30px;
 }
+.header {
+    color: var(--black);
+    font-family: "VT323", monospace;
+    font-size: 30px;
+    display: flex;
+    background-color: var(--grey);
+    margin-bottom: 24px;
+}
+
+.header a {
+    color: var(--magenta);
+    padding: 2px 12px;
+    text-decoration:none;
+}
+
+/* source: https://www.w3schools.com/cssref/sel_hover.php */
+.header a:hover {
+    background-color: var(--magenta);
+    color: var(--white);
+}
+
+.navigation a:hover {
+    background-color: var(--magenta);
+    color: var(--white);
+}
