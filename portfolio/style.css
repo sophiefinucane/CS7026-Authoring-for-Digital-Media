@@ -215,10 +215,8 @@ body {
 .song-frame {
     width: 250px;
     height: 350px;
-    background-size: contain;
     background-position: center;
     display: block;
     padding: 8px 20px;
     border: 4px double var(--pink);
 }
-
