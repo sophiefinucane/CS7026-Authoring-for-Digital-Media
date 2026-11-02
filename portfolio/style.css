@@ -206,15 +206,15 @@ body {
 
 #audio-display {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
     width: 100%;
     align-items: center;
 }
 
 .song-frame {
-    width: 250px;
-    height: 350px;
+    width: 500px;
+    height: 100%;
     background-position: center;
     display: block;
     padding: 8px 20px;
@@ -235,4 +235,9 @@ body {
 .album-cover {
     background-color: white;
     width: 100%;
+}
+
+audio {
+    width: 100%;
+
 }
