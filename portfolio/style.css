@@ -3,7 +3,7 @@
 /* fonts imported for design */
 
 body {
-    background-color: rgb(34, 3, 13);
+    background-color: rgb(32, 2, 12);
 }
 
 :root {
@@ -35,13 +35,13 @@ body {
     height:100vh;
     gap: 25px;
 }
+/* this is the overall layout box to for the content on the homepage */
 
 #my-name {
     color: var(--pink);
     font-family: "Sixtyfour", sans-serif;
     font-size: 5vw;
     text-align: center;
-    
 }
 /* source for font: https://fonts.google.com/selection/embed */
 
