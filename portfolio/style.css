@@ -253,16 +253,26 @@ body {
 
 /* AUDIO PAGE */
 
+#audio {
+    font-family: "Sixtyfour", sans-serif;;
+    font-size: 30px;
+    color: var(--light-blue);
+    text-align: center;
+    margin: 50px;
+}  
+
+
 #audio-display {
     display: flex;
     flex-direction: row;
     gap: 30px;
     width: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .song-frame {
-    width: 500px;
+    width: 200px;
     height: 100%;
     background-position: center;
     display: block;
@@ -278,7 +288,7 @@ body {
 
 .song-year {
     font-family: "VT323", monospace;
-    color: var(--light-blue);
+    color: var(--white);
 }
 
 .album-cover {
@@ -288,5 +298,4 @@ body {
 
 audio {
     width: 100%;
-
 }
