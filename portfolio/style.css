@@ -90,20 +90,20 @@ body {
 
 /* styling for header for about, visuals and audio page */
 .header {
-    color: var(--black);
     font-family: "VT323", monospace;
     font-size: 30px;
     display: flex;
     background-color: var(--grey);
     margin-bottom: 24px;
+    align-items: center;
+    justify-content: center;
 }
 
 .header a {
     color: var(--magenta);
     padding: 2px 12px;
-    text-decoration:none;
+    text-decoration: none;
 }
-
 
 .header a:hover {
     background-color: var(--magenta);
@@ -111,17 +111,32 @@ body {
 }
 
 /* ABOUT PAGE */
+#about-me-contents{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+/* styling for box surrounding about me contents */
 
-#about-text {
+#about-me {
+    font-family: "Sixtyfour", sans-serif;;
+    font-size: 30px;
+    color: var(--light-blue);
+    text-align: center;
+    margin: 50px;
+}
+/* styling for about me title */
+
+#about-text-box {
     display: block;
     padding: 8px 20px;
     border: 4px double var(--pink);
     /* border design: https://www.w3schools.com/css/css_border.asp */
     color: var(--light-blue);
+    /* all title text coded to blue */
     letter-spacing: 2px;
     text-decoration: none;
-    font-family: "VT323", monospace;;
-
+    font-family: "VT323", monospace;
 }
 
 .profile-photo {
@@ -133,15 +148,14 @@ body {
     display: block;
     padding: 8px 20px;
     border: 4px double var(--pink);
-
 }
 
-#about-me-contents{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-}
+/* styling for text contents in about me box */
+
 #name {
+    color: var(--white)
+}
+#course {
     color: var(--white)
 }
 
@@ -158,8 +172,9 @@ body {
 }
 
 #contact a {
-    color: var(--magenta);
+    color: var(--teal);
 }
+
 #thumbnails {
     display: flex;
     flex-direction: column;
