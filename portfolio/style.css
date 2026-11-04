@@ -71,11 +71,12 @@ body {
     text-decoration: none;
     font-family: "VT323", monospace;;
 }
+/* this is the styling for homepage navigation buttons */
 
 #subtitle {
-    color: var(--light-blue);
+    color: var(--magenta);
     font-family: "VT323", monospace;
-    font-size: 30px;
+    font-size: 5vw;
 }
 .header {
     color: var(--black);
