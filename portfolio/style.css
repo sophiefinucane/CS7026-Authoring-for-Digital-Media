@@ -192,6 +192,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    justify-content: center;
+    align-items: center;
 }
 /* layout styling for photo display */
 
@@ -282,6 +284,11 @@ body {
     display: block;
     padding: 8px 20px;
     border: 4px double var(--pink);
+}
+
+.song-frame a {
+ font-family: "VT323", monospace;
+ color: var(--magenta);
 }
 
 .song-name{
