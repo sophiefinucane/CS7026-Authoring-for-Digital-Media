@@ -3,7 +3,7 @@
 /* fonts imported for design */
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: var(--black);
 }
 
 :root {
@@ -26,6 +26,7 @@ body {
 }
 /* colour pallete reference: https://lospec.com/palette-list/default-ega-16-color-palette-rejected-5xC7 */
 /* Source: chatgpt prompt: how to define custom colours in CSS */
+/* keeping colours consistent this way */
 
 #main-box {
     display: flex;
