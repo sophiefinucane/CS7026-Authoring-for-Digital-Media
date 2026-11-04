@@ -28,6 +28,7 @@ body {
 /* Source: chatgpt prompt: how to define custom colours in CSS */
 /* keeping colours consistent this way */
 
+/* HOME PAGE:  */
 #main-box {
     display: flex;
     justify-content: center; 
@@ -53,7 +54,7 @@ body {
     background-position: center;
     background-size: contain;
 }
-
+/* bunny banner for homepage */
 
 .navigation {
     display: flex;
@@ -74,12 +75,20 @@ body {
 }
 /* this is the styling for homepage navigation buttons */
 
+.navigation a:hover {
+    background-color: var(--magenta);
+    color: var(--white);
+}
+/* source for hover effect: https://www.w3schools.com/cssref/sel_hover.php */
+
 #subtitle {
     color: var(--magenta);
     font-family: "VT323", monospace;
     font-size: 5vw;
 }
 
+
+/* styling for header for about, visuals and audio page */
 .header {
     color: var(--black);
     font-family: "VT323", monospace;
@@ -95,16 +104,13 @@ body {
     text-decoration:none;
 }
 
-/* source: https://www.w3schools.com/cssref/sel_hover.php */
+
 .header a:hover {
     background-color: var(--magenta);
     color: var(--white);
 }
 
-.navigation a:hover {
-    background-color: var(--magenta);
-    color: var(--white);
-}
+/* ABOUT PAGE */
 
 #about-text {
     display: block;
