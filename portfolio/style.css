@@ -175,12 +175,21 @@ body {
     color: var(--teal);
 }
 
+/* VISUAL PAGE */
+
+#visuals {
+    font-family: "Sixtyfour", sans-serif;;
+    font-size: 30px;
+    color: var(--light-blue);
+    text-align: center;
+    margin: 50px;
+}
 #thumbnails {
     display: flex;
     flex-direction: column;
     gap: 15px;
-
 }
+/* layout styling for photo display */
 
 .photo-frame {
     width: 220px;
@@ -191,12 +200,16 @@ body {
     padding: 8px 20px;
     border: 4px double var(--pink);
 }
+/* design for box around photos */
 
 .photo-row {
     display: flex;
     flex-direction: row;
     gap: 20px; 
 }
+/* styling for rows of photos */
+
+/* images imported for visuals */
 
 #claire {
     background-image: url(photos/claire.png);
@@ -237,6 +250,8 @@ body {
 #face-mosh {
     background-image: url(photos/face\ mosh.png);
 }
+
+/* AUDIO PAGE */
 
 #audio-display {
     display: flex;
