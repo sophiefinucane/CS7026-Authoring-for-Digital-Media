@@ -62,6 +62,7 @@ body {
 }
 
 .navigation a {
+    font-size: 4vw ;
     display: block;
     padding: 8px 20px;
     border: 4px double var(--pink);
@@ -69,7 +70,7 @@ body {
     color: var(--light-blue);
     letter-spacing: 2px;
     text-decoration: none;
-    font-family: "VT323", monospace;;
+    font-family: "VT323", monospace;
 }
 /* this is the styling for homepage navigation buttons */
 
@@ -78,6 +79,7 @@ body {
     font-family: "VT323", monospace;
     font-size: 5vw;
 }
+
 .header {
     color: var(--black);
     font-family: "VT323", monospace;
